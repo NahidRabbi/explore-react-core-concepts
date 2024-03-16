@@ -1,6 +1,8 @@
 import './App.css'
 import Counter from './counter';
 import Team from './Team';
+import Users from './users';
+import Friends from './Friends';
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
 return (
     <>
      <h3>React Core Concept 2</h3>
+
+     <Friends></Friends>
      
      <Users></Users>
 
